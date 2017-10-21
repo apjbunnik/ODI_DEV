@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.05" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="hMUsNSDurvgj2xsYNCiZGQ==" exportKeySalt="861ef0c2-800e-42c0-b8ae-aeaa29d73d78" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpProject">
+		<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
+	<Field name="ExtVersion" type="java.lang.String"><![CDATA[1.2]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2017-10-17 17:11:39.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[81b6bb0c-131d-4043-bdb2-0a2282981950]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2017-10-17 17:12:01.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="ProjectCode" type="java.lang.String"><![CDATA[DATA_COLLECTIONS]]></Field>
+	<Field name="ProjectName" type="java.lang.String"><![CDATA[DataCollections]]></Field>
+	<Field name="PrvVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpFolder]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Osiris Oracle]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d1a4e674-356c-4388-a5e8-d2d74f0ca457]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[02153db15944807675f913c0ef8622e079d36d4b]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Osiris_Oracle/FOLD_Osiris_Oracle.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[dataPumpDir]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[5b3b7353-dfe4-4e49-9ffc-9f972920b67c]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_dataPumpDir.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[bsa_student_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[39195b81-b5e8-4efb-8428-8e6bd2e1f295]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_bsa_student_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[config_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[23122b43-da81-4b6b-aa07-72957f13f7dd]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_config_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[config_faculteit_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[14635848-2fbe-432d-89bb-585e52f74cce]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_config_faculteit_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[croho_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7a39d804-3f90-479c-a15f-d9f1bc6e4039]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_croho_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[croho_accreditatie_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[4f58dfab-e64f-4c39-b2d0-00fd366474c9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_croho_accreditatie_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[examentype_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7af12078-d50a-4c79-8667-a3f39f713015]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_examentype_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[examentype_csa_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ecd6c274-67c2-4131-899c-d029e4efda5f]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_examentype_csa_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[examentype_fase_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a58883f2-d6f2-430e-88df-8778c99c92e8]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_examentype_fase_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[h_s_inschrijfhist_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[f2ed8e63-0ace-4366-9eee-77d342ff62ed]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_h_s_inschrijfhist_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[h_student_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[461e81ee-f33f-4c9c-bcd4-522ed4b2ef87]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_h_student_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[judicium_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a86c2f3e-caff-40f5-b7ec-09d972fa4bf1]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_judicium_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[judicium_berekening_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2385daf9-130e-43ce-b632-30804f0409f9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_judicium_berekening_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[opleiding_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[39504a92-a16c-4399-bf18-923dfab46882]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_opleiding_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[opleiding_croho_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[fdcb21cd-f68c-4d28-bb94-c60092421914]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_opleiding_croho_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[h_s_adres_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[583dc0ab-096e-44e4-9499-0c65b8eecdac]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_h_s_adres_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[h_s_examen_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2c28e0c9-8446-4067-a73d-7391705950b7]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_h_s_examen_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[h_s_inshist_croho_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[87ab4da2-1dd4-4835-90c3-8b09d9c07158]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_h_s_inshist_croho_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[h_s_instellingstatus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7f5fed96-863c-4700-a6d0-fd6124c4416b]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_h_s_instellingstatus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[h_s_toelating_master_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9a127c5f-d319-48a2-ba6b-ca2c1791b3e0]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_h_s_toelating_master_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_opleiding_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[21c7d23c-69eb-4dc2-8096-11e134f4f694]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_opleiding_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_studievoortgang_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[22e2eb2b-aa14-4de1-9505-fb6a58976b30]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_studievoortgang_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_sv_periode_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e48fd1ba-4774-4247-9b07-80df9c4d9d61]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_sv_periode_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_vooropleiding_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a1e61719-79cd-4448-be1a-58a446518811]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_vooropleiding_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[vooropleiding_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[923649c4-6d1a-420f-8238-9780332c9bbc]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_vooropleiding_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[type_vooropleiding_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[f9efd50a-3bb8-406d-bdf3-15965b2d905d]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_type_vooropleiding_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[soort_inschrijving_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[588ed11a-88a2-4cdf-bf96-bb8b056adbd8]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_soort_inschrijving_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[bekostiging_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[99e0be89-c9bb-4fb2-ac81-5bed09acd106]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_bekostiging_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[voltijd_deeltijd_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d16c1de8-6727-4cec-a29f-e09d2fd61421]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_voltijd_deeltijd_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[faculteit_uu_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[63760ac1-2525-4c54-a491-37f8ce0da9bb]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_faculteit_uu_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[school_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2e006fd9-11be-4f90-8af6-4d7a633b9a9c]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_school_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_sv_ex_cursus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[5e975beb-16eb-441e-a6f8-f8b90a377041]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_sv_ex_cursus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_sv_min_cursus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c136787c-2c84-4ba7-99d3-77378a1ea12a]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_sv_min_cursus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[cursus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d7de8a0c-45b2-45aa-a678-4dd48e82b829]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_cursus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[examenprogramma_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bd81263c-77b1-4bd6-829c-debde4475f42]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_examenprogramma_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[bsa_adviestype_advies_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c80c361c-86c4-46b8-9f61-634b8caf2af2]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_bsa_adviestype_advies_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[croho_hercodering_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[62cd837d-ffab-4fcc-8e9d-ee2fa64f30ef]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_croho_hercodering_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[inschrijfgroep_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[752dce56-ffbd-4232-bf4d-662e464bbb09]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_inschrijfgroep_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[cursus_toets_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[96af6a52-c7f0-47c3-8d77-259454ef77cd]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_cursus_toets_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_cursus_toets_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[dd504369-294d-4e2f-aada-036e621f7be1]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_cursus_toets_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_cursus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[986c0cd6-f56c-4ce4-86ad-c2e44978b38e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_cursus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[cursus_toets_rooster_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[589a17e7-b3cd-4ac5-bb72-a84c0efbd9ea]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_cursus_toets_rooster_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_vrij_veld_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[32bf5159-1a5f-4f10-8ef9-cb479f883e6f]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_vrij_veld_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[organisatieonderdeel_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[15ac2e17-3f05-4970-805a-ca3bf20c99c8]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_organisatieonderdeel_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[type_opleiding_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[1a8564a4-2dce-4b57-889e-0a861ff3ee12]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_type_opleiding_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_sv_ex_toets_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[20551f57-b4cb-40d9-9a1c-b3956364e1e8]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_sv_ex_toets_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_sv_min_toets_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[1219e63e-7803-45eb-b45d-2e9ea03640c8]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_sv_min_toets_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[brincode_vestigingsplaats_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[01f4679a-99b4-46cc-b136-8fca360e81ac]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_brincode_vestigingsplaats_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[aggregaat_opleiding_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[412a5f16-9efb-4d4f-af4c-4eb19da054ff]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_aggregaat_opleiding_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[toel_scholen_student_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c0075fc9-ac14-44f1-8739-53fb2c18d30d]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_toel_scholen_student_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[instellingstatus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[efd01104-8857-4915-86b7-66851bad2a9e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_instellingstatus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[deb_jaarbedrag_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7e536ed4-4a66-4dbc-8cf9-2f9f6016d9b4]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_deb_jaarbedrag_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_inschr_groep_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[72d7d160-7845-4e97-8bcb-938577c9a269]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_inschr_groep_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[nationaliteit_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[834d31d2-5de6-4dd3-b4b0-da72e93b7fb4]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_nationaliteit_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_cursus_werkvorm_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c2761492-d9e1-4bbf-b0c2-d6d71108b394]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_cursus_werkvorm_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[beoordeling_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9d416954-a816-4f0a-925f-77f771cf196d]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_beoordeling_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[examen_onderdeel_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[145918d1-2d9d-4d9d-8506-03d7aa3447a2]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_examen_onderdeel_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[examen_cursus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d03b50fc-ead1-42b9-bfe2-d20ef5777de4]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_examen_cursus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_examen_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[157c3345-4afb-4f39-8397-1a35e29ec899]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_examen_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[cgroep_cursus_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[454f73c8-816c-43c2-922d-9d17587f83a1]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_cgroep_cursus_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[cgroep_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a1a38688-8e96-448e-81b1-2e81690cf755]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_cgroep_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[land_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[51c1a2e9-07e3-4440-87cb-b005d971f645]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_land_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_sv_ex_onderdeel_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ee8f7731-3801-41a5-8f64-95adbf2744b9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_sv_ex_onderdeel_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_sv_min_onderdeel_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[60b649fd-ae4a-4f5a-81e2-3d39d053ca66]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_sv_min_onderdeel_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[cursus_vrij_veld_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[6002c669-667d-4723-9510-e557403574d7]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_cursus_vrij_veld_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_rubriek_vrij_veld_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[5b57bae1-ff75-4774-927e-c6b521bff13b]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_rubriek_vrij_veld_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[cursus_rubriek_vrij_veld_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d6f685d3-5449-4e1c-9779-283fcffe0ca9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_cursus_rubriek_vrij_veld_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_incassomacht_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[5add882b-06da-4cc8-9c78-298a2bb9b6e9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_incassomacht_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[actiefcode_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b0c3955f-196f-42b3-b415-811eaa6d43b2]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_actiefcode_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_vraag_antwoord_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[617f6177-94b5-4498-8241-222dde474903]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_vraag_antwoord_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_inschrijfhist_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[8cce2c8b-6aec-40ff-ad5e-e0ebb1997267]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_inschrijfhist_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpVar]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[student_lastdaterun]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[952315ed-4182-4f33-87a5-c89f85890638]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Variables/VAR_student_lastdaterun.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTrt]]></Field>
+	<Field name="SubType" type="java.lang.String"><![CDATA[KC]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[CKM SQL]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[277d45a5-c246-4f24-8c26-f15aa2f35762]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Knowledge Modules/Check(CKM)/KM_CKM_SQL.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTrt]]></Field>
+	<Field name="SubType" type="java.lang.String"><![CDATA[KI]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[IKM Oracle Slowly Changing Dimension]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[592e4dd8-bd06-4c44-bacc-3c0d87004ca6]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Knowledge Modules/Integration(IKM)/KM_IKM_Oracle_Slowly_Changing_Dimension.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTrt]]></Field>
+	<Field name="SubType" type="java.lang.String"><![CDATA[KJ]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[JKM Oracle Simple]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bdb08071-5ec5-4abc-9f07-11f70df75e41]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Knowledge Modules/Journalizing(JKM)/KM_JKM_Oracle_Simple.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTrt]]></Field>
+	<Field name="SubType" type="java.lang.String"><![CDATA[KI]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[IKM Oracle Incremental Update (PL SQL)]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ab0089d7-212f-4900-a957-4fe7d9cd6a4d]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Knowledge Modules/Integration(IKM)/KM_IKM_Oracle_Incremental_Update__PL_SQL_.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Priorities]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[534e7abd-2646-4c7e-bfb8-d2f3c0957e6d]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Priorities.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Progress]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b7194002-5e81-4688-b4b7-0ed10ab04a79]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Progress.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Smileys]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b0a516b6-8067-4895-b1f5-9e6457b4e0b9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[18e956618073ce2e31747b56366be9242ce9dd96]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Smileys.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.05]]></Field>
+</Object>
+</SunopsisExport>
